@@ -1,6 +1,6 @@
 import { supabase } from '@/lib/supabase';
 
-export const revalidate = 60; // ISR cache every minute if needed
+export const dynamic = 'force-dynamic';
 
 export default async function CharitiesPage() {
   const { data: charities } = await supabase.from('charities').select('*').order('name');

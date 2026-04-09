@@ -3,7 +3,7 @@
 A modern, subscription-driven web application combining golf performance tracking, charity fundraising, and a monthly draw-based reward engine. This project was built to fulfill the Digital Heroes Full-Stack Development Trainee selection process PRD.
 
 ## 🚀 Live Demo
-**[Insert your Vercel URL here]**
+(https://golf-charity-subscription-platform-a76skkf34.vercel.app/)
 
 ## 💡 Key Features
 - **Subscription Engine:** Fully integrated Stripe billing portal and checkout flow.

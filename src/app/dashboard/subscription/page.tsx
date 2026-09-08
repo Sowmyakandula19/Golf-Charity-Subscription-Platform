@@ -65,7 +65,7 @@ export default function SubscriptionPage() {
       const res = await fetch('/api/stripe/checkout', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ priceId: 'price_mock_monthly' })
+       body: JSON.stringify({ priceId: 'price_1UDHh1IQpszFJ9Uz9c04pBEE' })
       });
       const data = await res.json();
       if (data.url) window.location.href = data.url;
